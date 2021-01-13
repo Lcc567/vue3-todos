@@ -7,20 +7,25 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "ant-design-vue": "^2.0.0-rc.7",
     "core-js": "^3.6.5",
+    "element-plus": "^1.0.1-beta.23",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0",
     "vuex": "^4.0.0-0"
   },
   "devDependencies": {
+    "@types/webpack": "^4.41.25",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-router": "~4.5.0",
     "@vue/cli-plugin-typescript": "~4.5.0",
     "@vue/cli-plugin-vuex": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "@vue/compiler-sfc": "^3.0.0",
+    "babel-plugin-import": "^1.13.3",
     "sass": "^1.26.5",
     "sass-loader": "^8.0.2",
-    "typescript": "~3.9.3"
+    "typescript": "~3.9.3",
+    "webpack": "^4.0.0"
   }
 }
